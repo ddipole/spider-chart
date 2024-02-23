@@ -1,0 +1,7 @@
+1. I reviewed requirement document carefully
+2. I reviewed Figma carefully and understand what you are expecting in terms of design
+3. I checked the given example of D3 spider chart
+4. First of all executed the given example successfully and understand the given approach for making spider chart
+5. I divided Figma chart UI in different small task e.g. Circle Shade, Line Shade, Adding Points, Adding tooltip
+6. Started working on those chunk of tasks
+7. During my development I make sure that component should be easy to use, it should be just copy paste to use in any other project
