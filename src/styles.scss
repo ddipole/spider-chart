@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+// imports theming files'
+@import 'app/theme/themes/_index.scss';
+@import 'assets/styles/typography.scss';
+
+.f-calistoga-header {
+  font-family: Calistoga, serif;
+}
+
+.f-gilroy-text {
+  font-family: Gilroy, Arial, Helvetica, sans-serif;
+}

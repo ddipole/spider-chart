@@ -1,0 +1,39 @@
+.page-wrapper {
+  height: 100dvh;
+  width: 100dvh;  
+  align-items: center;
+  padding: 24px;
+  background: var(--primary-background);
+
+  .page-title {
+    color: var(--primary-color);
+  }
+
+  .font-usage {
+    color: var(--secondary-color);
+    & * {
+      display: inline;
+    }
+
+    .bold-text {
+      font-weight: bold;
+    }
+  }
+
+  .modules-usage {
+    color: var(--secondary-color);
+  }
+
+  .resource-links-title {
+    color: var(--tertiary-color)
+  }
+
+  .resource-links {
+    display: flex;
+    gap: 24px;
+
+    a{
+      color: var(--tertiary-color);
+    }
+  }
+}

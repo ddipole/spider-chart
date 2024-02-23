@@ -1,0 +1,68 @@
+:root {
+  --primary-button-background: linear-gradient(94.44deg, #fe3c72 1.26%, #e15561 100%) !important;
+  --black-button-background: #27242c;
+}
+
+.app-button {
+  text-align: center;
+  padding: 10px 32px;
+  --border-radius: 100px;
+  text-transform: none !important;
+  font-family: 'Calistoga';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  border-radius: var(--border-radius);
+}
+
+.box-shadow-button {
+  --box-shadow: 11px 10px 27px 2.5px rgba(17, 16, 20, 0.65), -5px -5px 16px -3px rgba(203, 199, 209, 0.25) !important;
+}
+
+.app-outline-button {
+  @extend .app-button;
+  --border-color: rgba(255, 255, 255, 0.5);
+  --border-style: solid;
+  --border-width: 2px;
+  --color: rgba(255, 255, 255, 0.5);
+  --background: transparent;
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.app-black-button {
+  @extend .app-button;
+  @extend .box-shadow-button;
+  --background: var(--black-button-background);
+  --color: white;
+}
+
+.app-primary-button {
+  @extend .app-button;
+  @extend .box-shadow-button;
+  --background: var(--primary-button-background) !important;
+  --color: white;
+}
+
+.app-round-button {
+  width: 48px;
+  height: 48px;
+  --border-radius: 50%;
+  --background: var(--black-button-background);
+  --color: white;
+}
+
+.app-pink-proceed-button {
+  @extend .app-button;
+  background: var(--primary-button-background);
+  color: #fff;
+  box-shadow: var(--box-shadow);
+}
+
+.app-black-return-button {
+  @extend .app-button;
+  background: var(--black-button-background);
+  color: #fff;
+  box-shadow: var(--box-shadow);
+}
